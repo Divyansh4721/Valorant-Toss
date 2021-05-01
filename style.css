@@ -1,0 +1,33 @@
+body{
+  background-image: url('valoback.jpg');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+@font-face {
+  font-family: Valorant;
+  src: url(VALORANT-Regular.woff);
+}
+#Valo{
+  position: absolute;
+  font-size: 100px;
+  color: #ff4654;
+  font-family: Valorant;
+  font-weight: bold;
+  top: 55%;
+  left: 75%;
+  transform: translate(-50%,-50%);
+}
+#button{
+  background-color: #101a26;
+  color: #ff4654;
+  position: absolute;
+  height:50px;
+  width:15%;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius:25px;
+  box-shadow: 0px 0px 20px 3px white;
+  top: 75%;
+  left: 75%;
+  transform: translate(-50%,-50%);
+}
