@@ -35,7 +35,7 @@ function buttonclicked(){
 }
 {
   let temp=-1;
-  let MapNames=["Head","Tails"];
+  let MapNames=["Attacking","Defending"];
   interval=setInterval(function(){
     let Mapno=RandomMap();
     while (temp==Mapno) {
