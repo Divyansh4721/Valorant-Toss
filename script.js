@@ -7,7 +7,7 @@ let audio=new Audio("sound.wav");
 function buttonclicked(){
   if(flag){
     let Mapno=RandomMap();
-    let MapNames=["Head","Tails"];
+    let MapNames=["Attacking","Defending"];
     audio.play();
     setTimeout(()=>{
       clearInterval(interval);
